@@ -1,0 +1,29 @@
+.container{
+    visibility: visible;
+    position: relative;
+    left: 400px;
+    bottom: 418px;
+    background-color:gray;
+    height: 150px;
+    width: 250px;
+}
+
+.buttonon{
+    position: relative;
+    background-color: rgb(163, 163, 163);
+    border: 0cm;
+    height: 30px;
+    width: 70px;
+    left: 450px;
+    bottom: 410px;
+}
+
+.buttonoff{
+    position: relative;
+    background-color: rgb(163, 163, 163);
+    border: 0cm;
+    height: 30px;
+    width: 70px;
+    left: 452px;
+    bottom: 410px;
+}
