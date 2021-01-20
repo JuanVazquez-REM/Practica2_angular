@@ -2,28 +2,41 @@
     visibility: visible;
     position: relative;
     left: 400px;
-    bottom: 418px;
+    bottom: 500px;
     background-color:gray;
     height: 150px;
     width: 250px;
 }
-
-.buttonon{
+.invisible{
+    visibility: hidden;
     position: relative;
-    background-color: rgb(163, 163, 163);
-    border: 0cm;
-    height: 30px;
-    width: 70px;
-    left: 450px;
-    bottom: 410px;
+    left: 400px;
+    bottom: 418px;
+    background-color:yellow;
+    height: 150px;
+    width: 250px;
+}
+.infodesa{
+    background-color: brown;
 }
 
-.buttonoff{
+.containerinfo{
     position: relative;
-    background-color: rgb(163, 163, 163);
-    border: 0cm;
-    height: 30px;
-    width: 70px;
-    left: 452px;
-    bottom: 410px;
+    
+    left: 400px;
+    height: 150px;
+    width: 200px;
+}
+
+.buttonalumno{
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+    background-color: aqua;
+}
+
+.lista{
+    background-color: azure;
+    width: 150px;
+    position:fixed;
 }

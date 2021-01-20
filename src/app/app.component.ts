@@ -8,41 +8,14 @@ import { Card } from './interfaces/card'
 })
 export class AppComponent implements OnInit{
   title = 'Practica2';
-  public cards:Array<Card> = []
+  Activado = false;
+
+  onChangeList(boolean): void {
+    this.Activado = boolean
+  }
+
+  
   ngOnInit(): void {
-    this.cards = [
-      {
-        'matricula':19170059,
-        'nombre':'juan',
-        'apellidos':'vazquez lozoria',
-        'edad':19,
-        'grupo':5,
-        'seccion':'a'
-      },
-      {
-        'matricula':19170142,
-        'nombre':'carlos',
-        'apellidos':'perez lopez',
-        'edad':19,
-        'grupo':5,
-        'seccion':'a'
-      },
-      {
-        'matricula':18170072,
-        'nombre':'adrian',
-        'apellidos':'hernandez consuselos',
-        'edad':19,
-        'grupo':5,
-        'seccion':'b'
-      },
-      {
-        'matricula':19170059,
-        'nombre':'abril',
-        'apellidos':'de avila maa',
-        'edad':19,
-        'grupo':5,
-        'seccion':'b'
-      },
-    ]
+    
   }
 }

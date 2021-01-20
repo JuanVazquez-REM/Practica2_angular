@@ -1,5 +1,8 @@
 div.alumno{
-    
-    align-content: center;
-    border-radius: 1cm;
+    height: 30px;
+    width: 200px;
+    background-color: gray;
+    border: 10px;
+    border-color: black;
+    text-align: left;
 }

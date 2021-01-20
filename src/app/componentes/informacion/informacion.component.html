@@ -1,8 +1,25 @@
 <div>
-    <div class="container">
-
+    <div class="button" [ngClass]= "{invisible: Activado}">
+        <input type="button" [value]="alumnos.nombre"  (click)="Mostrarmas()">      
     </div>
-    <button class="buttonon">On</button>
-    <button class="buttonoff">Off</button>
 </div>
 
+
+<div class="containerinfo">
+    <div *ngIf="mostrar">
+        <div>
+            <label for="">Nombre: </label>
+            <input type="text" [ngModel]="alumnos.nombre" [ngClass]="{infodesa: desa}">
+            <label for="">matricula: </label>
+            <input type="text" [ngModel]="alumnos.matricula"[ngClass]="{infodesa: desa}">
+            <label for="">edad: </label>
+            <input type="text" [ngModel]="alumnos.edad"[ngClass]="{infodesa: desa}">
+            <label for="">apellidos: </label>
+            <input type="text" [ngModel]="alumnos.apellidos"[ngClass]="{infodesa: desa}">
+            <label for="">grupo: </label>
+            <input type="text" [ngModel]="alumnos.grupo"[ngClass]="{infodesa: desa}">
+            <label for="">seccion: </label>
+            <input type="text" [ngModel]="alumnos.seccion"[ngClass]="{infodesa: desa}">
+        </div>
+    </div> 
+</div> 
