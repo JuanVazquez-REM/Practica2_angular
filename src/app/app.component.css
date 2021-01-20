@@ -1,7 +1,8 @@
 div.container-principal{
     visibility: visible;
+    padding: relative;
     width: 350px;
-    height: 650px;
+    height: 1100px;
     background-color: gray;
     text-align: center;
 }
@@ -20,7 +21,7 @@ div.ContainerPrincipalInvi{
     height: 30px;
     width: 70px;
     left: 430px;
-    bottom: 603px;
+    bottom: 1053px;
 }
 
 .buttonoff{
